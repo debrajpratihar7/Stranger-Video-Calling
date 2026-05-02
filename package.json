@@ -1,11 +1,16 @@
 
 {
-  "name": "backend",
-  "main": "server.js",
+  "name": "frontend",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "socket.io": "latest"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io-client": "latest"
   }
 }
