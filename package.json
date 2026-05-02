@@ -1,0 +1,11 @@
+
+{
+  "name": "backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "latest"
+  }
+}
